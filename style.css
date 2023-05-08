@@ -1,0 +1,80 @@
+@media (max-width: 20000px){
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .container {
+    width: 800px;
+  }
+}
+
+@media (max-width: 960px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .container {
+    width: 300px;
+  }
+}
+
+h1 {
+  color: #6D67E4;
+}
+
+h2 {
+  color: #46C2CB;
+}
+
+.background-yellow {
+  text-decoration: none;
+  color: #46C2CB;
+  background-color: #F2F7A1;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+a:hover {
+  color: #453C67;
+}
+
+.icon {
+  color: #6D67E4;
+}
+
+#profil-pic {
+  width: 200px;
+  border-radius: 50%;
+
+}
+
+.container {
+  padding: 30px;
+  margin: 0 auto;
+  background-color: #6D67E4;
+}
+
+.card {
+  margin: 30px;
+  padding: 30px;
+  background-color: white;
+  box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.6);
+}
+
+.card {
+  text-align: center;
+}
+
+.list-inline {
+  display: inline-block;
+  padding: 0px 20px;
+  list-style: none;
+}
